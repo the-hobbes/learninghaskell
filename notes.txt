@@ -1,0 +1,11 @@
+Vim haskell syntax highlighting:
+- drop https://github.com/vim-scripts/haskell.vim into ~/.vim/syntax/
+- follow: http://vim.wikia.com/wiki/Creating_your_own_syntax_files
+
+To launch: $ghci
+Change to ghci prompt (create a .ghci in ~ and add this)
+:set prompt "ghci> "
+
+To load files into ghci (no .hs needed):
+ghci> :l <file>
+
